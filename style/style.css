@@ -1,16 +1,18 @@
 
 .btnContainer{
   text-align: center;
+  padding-top: 90px;
+
 }
 .btn{
 	text-align: center;
-	border: 1px solid orange;
-	background: none;
+	border: 1px solid #e27000;
+  background: #e27000;
 	padding: 10px 20px;
 	font-size: 20px;
 	font-family:'Century Gothic','Futura','Didact Gothic';
 	cursor: pointer;
-	margin: 10px;
+	margin: 20px;
 	transition: 0.8s;
 	position: relative;
 	overflow: hidden;
@@ -30,40 +32,32 @@
 	position: absolute;
 	left: 0;
 	width: 100%;
-	height: 180%;
-	background: orange;
+	height: 0%;
+	background: black;
 	z-index: -1;
 	transition: 0.8s;
 }
 
 .btn1::before,.btn2::before,.btn3::before, .btn4::before {
 	bottom: 0;
-	border-radius: 50% 50% 0 0;
 }
 .btn1:hover:before,.btn2:hover:before,.btn3:hover:before,.btn4:hover:before{
-	height: 0%;
+	height: 180%;
 }
 
 
 .logo img{
     position: absolute;
     float: left;
-    padding-left: 5%;
-    padding-top: 2%;
-    width: 139px;
-    height: 139px;
+    padding-left: 12px;
+    padding-top: 25px;
+    width: 228px;
+    height: 223px;
 }
 .topRect{
     position: absolute;
-    width: 1920px;
-    height: 150px;
+    width: 100%;
+    height: 135px;
 
     background: #00224B;
-}
-.ButtonRect{
-    position: absolute;
-    width: 5px;
-    height: 5px;
-
-    background: orange;
 }
